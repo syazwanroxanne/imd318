@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football</title>
+    <link rel="stylesheet" href="css/hobby.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            background-color: #333;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            position: relative;
+        }
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        nav ul li a:hover {
+            background-color: #555;
+        }
+        nav ul li ul.dropdown {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 160px;
+            z-index: 1;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+        }
+        nav ul li:hover ul.dropdown {
+            display: block;
+            opacity: 1;
+        }
+        nav ul li ul.dropdown li {
+            float: none;
+        }
+        nav ul li ul.dropdown li a {
+            padding: 12px 16px;
+        }
+        nav ul li ul.dropdown li a:hover {
+            background-color: #575757;
+        }
+        .marquee {
+            font-size: 2em;
+            font-weight: bold;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            overflow: hidden;
+            position: relative;
+            white-space: nowrap;
+        }
+        .marquee span {
+            display: inline-block;
+            padding-left: 100%;
+            animation: marquee 10s linear infinite;
+        }
+        @keyframes marquee {
+            from { transform: translateX(20%); }
+            to { transform: translateX(-100%); }
+        }
+        .marquee span:hover {
+            animation-play-state: paused;
+        }
+    </style>
+</head>
+<body id="football">
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+                
+                <a href="#">About Me ▾</a>
+                <ul class="dropdown">
+                    <li><a href="#">Introduction</a></li>
+                    <li><a href="#">Contact Information</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Family ▾</a>
+                <ul class="dropdown">
+                    <li><a href="#">Parent & Siblings</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Education ▾</a>
+                <ul class="dropdown">
+                    <li><a href="primary_school.html">Primary School</a></li>
+                    <li><a href="secondary_school.html">Secondary Schoool</a></li>
+                    <li><a href="university.html">University</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Hobby ▾</a>
+                <ul class="dropdown">
+                    <li><a href="football.html">Football</a></li>
+                    <li><a href="basketball.html">Basketball</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="marquee">
+        <span>Welcome to My Football Gallery! Enjoy browsing through the moments of my football journey!</span>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <center><h1>Welcome to My Football Gallery</h1></center>
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Football Gallery</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                text-align: center;
+                background-color: #f0f0f0;
+                padding: 20px;
+            }
+            .gallery-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px;
+            }
+            .gallery-container img {
+                width: 20%;
+                height: auto;
+                border: 3px solid black;
+                margin: 5px;
+                transition: transform 0.3s, box-shadow 0.3s;
+            }
+            .gallery-container img:hover {
+                transform: scale(1.05);
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            }
+            h6 {
+                color: rgb(74, 210, 138);
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="gallery-container">
+            <img src="photo/football5.jpg" alt="Football 5">
+            <img src="photo/football1.jpg" alt="Football 1">
+            <img src="photo/football3.jpg" alt="Football 3">
+            <img src="photo/football6.jpg" alt="Football 6">
+            <img src="photo/football7.jpg" alt="Football 7">
+            <img src="photo/football8.jpg" alt="Football 8">
+        </div>
+    </body>
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Football Gallery</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                text-align: center;
+                background-color: #f0f0f0;
+                padding: 20px;
+            }
+            .gallery-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px;
+            }
+            .gallery-container img {
+                width: 20%;
+                height: auto;
+                border: 3px solid black;
+                margin: 5px;
+                transition: transform 0.3s, box-shadow 0.3s;
+            }
+            .gallery-container img:hover {
+                transform: scale(1.05);
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            }
+            h6 {
+                color: rgb(92, 191, 138);
+                margin-top: 50px;
+            }
+        </style>
+    </head>
+    <body><br><br><br><br><br>
+        <h3 style="color: rgb(140, 236, 185);">THIS IS ME AND MY TEAM. WE HAD FOOTBALL MATCHES OR FRIENDLIES</h3>
+        <div class="gallery-container">
+            <img src="photo/football9.jpg" alt="Football 9">
+            <img src="photo/football10.jpg" alt="Football 10">
+            <img src="photo/football11.jpg" alt="Football 11">
+        </div><br><br><br>
+        <center>
+        <h1 style="color: rgb(4, 65, 33); font-size: 20px; max-width: 800px; background-color: #f0e6ff; padding: 10px; border-radius: 5px;">About My Basketball Hobby</h1>
+<p style="color: rgb(44, 160, 98); font-size: 20px; max-width: 800px; background-color: #f0e6ff; padding: 10px; border-radius: 5px;">
+    <strong>
+        Here's where I share about my first hobby, which is football. I come from a family that loves sports, and we usually work out every day. My brother and sister are gym enthusiasts who hit the gym daily to maintain a healthy lifestyle. Unlike them, I'm the one in the family who enjoys rough sports like football. The main reason I love football so much is because of my idol, Cristiano Ronaldo. Despite turning 40 next year, he still plays exceptionally well. He was even more phenomenal during his prime, earning the admiration of many football fans. Cristiano Ronaldo has won numerous prestigious awards that many football players can only dream of, such as the FIFA World Player of the Year 2009, The Best FIFA Men's Player 2017, UEFA Men's Player of the Year Award 2014, FIFA Ballon d'Or in 2015, 2014, and 2017, FIFA Puskás Award 2009, FIFA FIFPro World XI in 2022, 2020, and 2019, and the Premier League Golden Boot in 2007. In conclusion, Cristiano Ronaldo deserves to be regarded as the best football player because he worked hard to rise from obscurity to his current status.
+    </strong>
+</p>
+    <font size="10">
+    <body style="background-color: black;">
+        <center><h1 style="color: rgb(92, 191, 138);">I LOVE FOOTBALL</h1></center> 
+        <center><img src="photo/football2.jpg" width="20%" height="5%" border="3" vspace="5" hspace="10"></center><br>
+        <center><img src="photo/football4.jpg" width="20%" height="5%" border="3" vspace="5" hspace="10"></center>
+        <center><h5 style="color: rgb(92, 191, 138);">THIS IS WHEN I ENJOYED WATCHING FOOTBALL SO MUCH THAT ARGENTINA WON THE WORLD CUP IN 2022</h5></center> <br><br>
+        
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Football Gallery</title>
+        </head>
+        <body>
+            <center>
+                <h5 style="color: rgb(92, 191, 138);">HERE ARE SOME PICTURES AND VIDEOS OF ME PLAYING FOOTBALL</h5>
+            </center>
+        
+            <div class="container">
+                <table align="center" cellpadding="10">
+                    <tr>
+                        <td align="center">
+                            <img src="photo/football5.jpg" width="90%" height="auto" border="6">
+                        </td>
+                        <td align="center">
+                            <img src="photo/football1.jpg" width="50%" height="auto" border="6">
+                        </td>
+                        <td align="center">
+                            <img src="photo/football3.jpg" width="50%" height="auto" border="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <img src="photo/football6.jpg" width="90%" height="auto" border="3">
+                        </td>
+                        <td align="center">
+                            <img src="photo/football7.jpg" width="80%" height="auto" border="3">
+                        </td>
+                        <td align="center">
+                            <img src="photo/football8.jpg" width="80%" height="auto" border="3">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+        <center><h6 style="color: rgb(92, 191, 138);">THIS IS ME AND MY TEAM WE HAD FOOTBALL MATCH OR FRIENDLIES</h6></center> 
+        <center><img src="photo/football9.jpg" width="20%" height="20%" border="3" vspace="5" hspace="10"></center>
+        <center><img src="photo/football10.jpg" width="20%" height="20%" border="3" vspace="5" hspace="10"></center>
+        <center><img src="photo/football11.jpg" width="20%" height="20%" border="3" vspace="5" hspace="10"></center> <br><br>
+                
+        <center><h5 style="color: rgb(92, 191, 138);">THIS IS SOME VIDEO OF ME HAVING SOME FREE KICKS SHOTS</h5></center> 
+                
+        <center>
+            <table cellpadding="10" cellspacing="10">
+                <tr>
+                    <td align="center">
+                        <div class="video-container">
+                            <video controls width="320" height="240">
+                                <source src="video/footballvideo1.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </td>
+                    <td align="center">
+                        <div class="video-container">
+                            <video controls width="320" height="240">
+                                <source src="video/footballvideo2.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </td>
+                    <td align="center">
+                        <div class="video-container">
+                            <video controls width="320" height="240">
+                                <source src="video/footballvideo3.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </center>
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Friends</title>
+            <link rel="stylesheet" href="style.css">
+            <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        </head>
+        <body>
+            <footer style="background-color: #4b1191; color: white; text-align: center; padding: 20px 0; font-family: Arial, sans-serif;">
+                <p>&copy; 2024 Syazwan Mohideen. All rights reserved.</p>
+                <div class="contact-info" style="margin: 10px 0;">
+                    <p>Phone: +60 17 762 2808</p>
+                    <p>Email: <a href="mailto:syazwanmohideen@gmail.com" style="color: #535757; text-decoration: none;">syazwanmohideen@gmail.com</a></p>
+                </div>
+                <div class="footer-sci" style="margin: 10px 0;">
+                    <a href="https://m.facebook.com/mohdsyazwan.mohdmohideen/" target="_blank" style="color: white; margin: 0 10px; text-decoration: none; font-size: 24px;">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    <a href="https://www.instagram.com/sy.zwn/" target="_blank" style="color: white; margin: 0 10px; text-decoration: none; font-size: 24px;">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                    <a href="https://x.com/syazwanfcuk" target="_blank" style="color: white; margin: 0 10px; text-decoration: none; font-size: 24px;">
+                        <i class='bx bxl-twitter'></i>
+                    </a>
+                </div>
+            </footer>
+        </body>
+        </html>

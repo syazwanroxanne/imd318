@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University</title>
+    <link rel="stylesheet" href="css/education.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0e6f6;
+        }
+        nav {
+            background-color: #4b1191;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .dropdown {
+            display: none;
+            position: absolute;
+            background-color: #4b1191;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+        .dropdown li {
+            padding: 10px;
+        }
+        nav ul li:hover .dropdown {
+            display: block;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .education-section {
+            margin-bottom: 20px;
+        }
+        .institution {
+            margin-bottom: 10px;
+        }
+        .institution h3 {
+            margin: 0;
+            color: #4b1191;
+        }
+        .institution p {
+            margin: 5px 0;
+        }
+        .image-section {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .audio-section {
+            text-align: center;
+            margin: 20px 0;
+        }
+        audio {
+            width: 100%;
+            max-width: 600px;
+        }
+        .video-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .video-container video {
+            width: 50%;
+            max-width: 250px;
+            border-radius: 10px;
+        }
+        .footer {
+            background-color: #4b1191;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-family: Arial, sans-serif;
+        }
+        .footer a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+                <a href="#">About Me ▾</a>
+                <ul class="dropdown">
+                    <li><a href="introduction.html">Introduction</a></li>
+                    <li><a href="contact_information.html">Contact Information</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Family ▾</a>
+                <ul class="dropdown">
+                    <li><a href="parents&siblings.html">Parent & Siblings</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Education ▾</a>
+                <ul class="dropdown">
+                    <li><a href="primary_school.html">Primary School</a></li>
+                    <li><a href="secondary_school.html">Secondary Schoool</a></li>
+                    <li><a href="university.html">University</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Hobby ▾</a>
+                <ul class="dropdown">
+                    <li><a href="football.html">Football</a></li>
+                    <li><a href="basketball.html">Basketball</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <br><br>
+    <center>
+        <a href="primary_school.html"><img src="photo/buttonprimary.png" alt="Primary School Button"></a>
+        <a href="secondary_school.html"><img src="photo/buttonsecondary.png" alt="Secondary School Button"></a>
+        <a href="university.html"><img src="photo/buttonuniversity.png" alt="University Button"></a>
+    </center>
+
+    <header>
+        <center><h1>University</h1></center>
+    </header>
+
+    <div class="container">
+        <section class="image-section">
+            <img src="photo/uitm17.jpg" alt="Universiti Teknologi Mara's Entrance">
+        </section>
+
+        <section class="education-section">
+            <h2>University of Technology Mara</h2>
+
+            <div class="institution">
+                <h3>Diploma</h3>
+                <p><strong>Branch:</strong> Kedah</p>
+                <p><strong>Location:</strong> 08400 Merbok, Kedah</p>
+                <p><strong>Years Attended:</strong> [2022-2024 (5 Semester)]</p>
+                <p><strong>Course:</strong> Diploma (Faculty of Information Management)</p>
+            </div>
+
+            <section class="image-section">
+                <img src="photo/uitm16.jpg" alt="UITM Image">
+            </section>
+
+            <section class="audio-section">
+                <h2>UITM Song</h2>
+                <audio controls>
+                    <source src="audio/uitm1.mp3" type="audio/mp3">
+                </audio>
+            </section>
+
+            <div class="container">
+                <h1>Lyrics</h1>
+                <p>wujudmu di sini di tanah anak merdeka...bagai obor ilmu memayungi putera puterinya</p>
+                <p>pelopor hidup, budaya bangsa, agama, negara...pembentuk akhlak manusia agar jadi sempurna</p>
+                <p>ku yang melangkah di sini ingin mempelajari...rahsia di muka bumi dengan cara hakiki</p>
+                <p>tunjukkan aku jalan ilmumu untukku... menuju destinasi cita-cita negara dan bangsaku</p>
+                <p>majulah bangsa...maju negara...berkat usaha jaya MARA</p>
+                <p>kami berikrar akan berjasa hingga kita berjaya…… demi bangsa</p>
+                <p>watikah yang ku miliki kan ku semat dihati...janji ku pada pertiwi untuk menabur bakti</p>
+                <p>ku sempurnakan seikhlas hati membela negara...doa restu ayah bonda ku untuk mu semua..uitm… usaha taqwa mulia</p>
+            </div>
+        </section>
+    </div>
+
+    <br><br><br>
+    <h1 style="color: rgb(64, 17, 125); text-align: center;">THE SUNSET AT UiTM IS REALLY BEAUTIFUL</h1>
+    <div class="video-container">
+        <video controls>
+            <source src="video/uitmv2.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <br><br><br>
+    <h2 style="color: rgb(64, 17, 125); text-align: center;">I WILL ALWAYS SUPPORT MY FRIENDS WHENEVER THEY HAVE A FOOTBALL MATCH</h2>
+    <div class="video-container">
+        <video controls>
+            <source src="video/uitmv1.mp4" type="video/mp4">
+        </video>
+    </div>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <footer style="background-color: #4b1191; color: white; text-align: center; padding: 20px 0; font-family: Arial, sans-serif;">
+        <p>&copy; 2024 Syazwan Mohideen. All rights reserved.</p>
+        <div class="contact-info" style="margin: 10px 0;">
+            <p>Phone: +60 17 762 2808</p>
+            <p>Email: <a href="mailto:syazwanmohideen@gmail.com" style="color: #535757; text-decoration: none;">syazwanmohideen@gmail.com</a></p>
+        </div>
+        <div class="footer-sci" style="margin: 10px 0;">
+            <a href="https://m.facebook.com/mohdsyazwan.mohdmohideen/" target="_blank" style="color: white; margin: 0 10px; text-decoration: none; font-size: 24px;">
+                <i class='bx bxl-facebook'></i>
+            </a>
+            <a href="https://www.instagram.com/sy.zwn/" target="_blank" style="color: white; margin: 0 10px; text-decoration: none; font-size: 24px;">
+                <i class='bx bxl-instagram'></i>
+            </a>
+            <a href="https://x.com/syazwanfcuk" target="_blank" style="color: white; margin: 0 10px; text-decoration: none; font-size: 24px;">
+                <i class='bx bxl-twitter'></i>
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
+</body>
+</html>

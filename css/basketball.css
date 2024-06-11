@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', monospace;
+}
+
+#football {
+    background-image: url(hobbybackground2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+ul {
+    list-style: none;
+    background: #250f52;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    display: block;
+    padding: 20px 25px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px; /* Adjusted font size */
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown {
+    width: 100%;
+    background: #8c52ff;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover {
+    background: #6d30e9;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+#basketball {
+    background-image: url(background4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Footer styles */
+footer p, .contact-info p, .footer-sci a {
+    font-size: 14px; /* Adjusted font size */
+    color: #FFF;
+}
+
+footer .contact-info a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+footer .footer-sci a {
+    margin-right: 10px;
+    color: #FFF;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+            

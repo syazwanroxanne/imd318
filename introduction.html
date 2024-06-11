@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        ul {
+    list-style: none;
+    background: #8c52ff;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    display: block;
+    padding: 20px 25px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown {
+    width: 100%;
+    background: #8c52ff;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover {
+    background: #6d30e9;
+}
+
+    ul li:hover ul.dropdown {
+        display: block;
+    }
+        .marquee-container {
+            background-color: #730b9c;
+            color: white;
+            font-size: 2em;
+            padding: 10px 0;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .content {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            padding: 15px;
+        }
+
+        .image-gallery img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-family: Arial, sans-serif;
+        }
+
+        footer .contact-info, footer .footer-sci {
+            margin: 10px 0;
+        }
+
+        footer .footer-sci a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+                <a href="#">About Me ▾</a>
+                <ul class="dropdown">
+                    <li><a href="introduction.html">Introduction</a></li>
+                    <li><a href="contact_information.html">Contact Information</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Family ▾</a>
+                <ul class="dropdown">
+                    <li><a href="parents&siblings.html">Parent & Siblings</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Education ▾</a>
+                <ul class="dropdown">
+                    <li><a href="primary_school.html">Primary School</a></li>
+                    <li><a href="secondary_school.html">Secondary Schoool</a></li>
+                    <li><a href="university.html">University</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Hobby ▾</a>
+                <ul class="dropdown">
+                    <li><a href="football.html">Football</a></li>
+                    <li><a href="basketball.html">Basketball</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="marquee-container">
+        <marquee behavior="scroll" direction="left">WELCOME TO MY PERSONAL WEBSITE, HOPE EVERYONE ENJOYS!!!</marquee>
+    </div>
+
+    <div class="content">
+        <h1>Welcome to My Website</h1>
+        <br><br>
+        <h1>Welcome to Syazwan's Website</h1>
+        <strong>
+            <p>
+                Hello and welcome to my personal website! My name is Mohamad Syazwan, and I'm thrilled to share a glimpse into my world with you. 
+                Raised in a warm and loving family, I've been fortunate to have their unwavering support in all my endeavors. 
+                My passion for my hobby has been a driving force in my life, offering moments of both joy and personal growth. 
+                As a lifelong learner, I've pursued my education with dedication, earning a diploma in Information Management and honing my skills in Technology. 
+                Join me as I navigate through life's adventures, share insights, and explore the boundless possibilities that lie ahead in my personal website.
+            </p>
+        </strong>
+    </div>
+
+    <div class="content">
+        <h1>My Image</h1>
+        <div class="image-gallery">
+            <img src="photo/myphoto5.jpg" alt="THIS IS ME">
+            <img src="photo/myphoto6.jpg" alt="THIS IS ME">
+            <img src="photo/myphoto4.jpg" alt="THIS IS ME">
+            <img src="photo/myphoto3.jpg" alt="THIS IS ME">
+            <img src="photo/myphoto2.jpg" alt="THIS IS ME">
+            <img src="photo/myphoto.jpg" alt="THIS IS ME">
+        </div>
+    </div>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Friends</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <footer style="background-color: #4b1191; color: white; text-align: center; padding: 20px 0; font-family: Arial, sans-serif;">
+            <p>&copy; 2024 Syazwan Mohideen. All rights reserved.</p>
+            <div class="contact-info" style="margin: 10px 0;">
+                <p>Phone: +60 17 762 2808</p>
+                <p>Email: <a href="mailto:syazwanmohideen@gmail.com" style="color: #535757; text-decoration: none;">syazwanmohideen@gmail.com</a></p>
+            </div>
+            <div class="footer-sci" style="margin: 10px 0;">
+                <a href="https://m.facebook.com/mohdsyazwan.mohdmohideen/" target="_blank" style="color: white; margin: 0 10px; text-decoration: none; font-size: 24px;">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="https://www.instagram.com/sy.zwn/" target="_blank" style="color: white; margin: 0 10px; text-decoration: none; font-size: 24px;">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+                <a href="https://x.com/syazwanfcuk" target="_blank" style="color: white; margin: 0 10px; text-decoration: none; font-size: 24px;">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+            </div>
+        </footer>
+</body>
+</html>

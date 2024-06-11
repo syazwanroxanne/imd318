@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home/Interface</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: black;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+            position: relative;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline-block;
+            position: relative;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 20px;
+            display: block;
+            transition: background-color 0.3s;
+        }
+        nav ul li a:hover {
+            background-color: #76c7c0;
+        }
+        .dropdown {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            top: 100%;
+            left: 0;
+            width: 200px;
+            z-index: 1000;
+        }
+        nav ul li:hover .dropdown {
+            display: block;
+        }
+        .dropdown li {
+            display: block;
+            width: 100%;
+        }
+        .dropdown li a {
+            padding: 10px;
+            color: white;
+            text-align: left;
+            transition: background-color 0.3s;
+        }
+        .dropdown li a:hover {
+            background-color: #76c7c0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #073834;
+        }
+        .contact-info p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .contact-info a {
+            color: #76c7c0;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        footer p {
+            margin: 0;
+        }
+        .footer-sci a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 24px;
+        }
+        .footer-sci a:hover {
+            color: #76c7c0;
+        }
+        .marquee {
+            background-color: #76c7c0;
+            color: white;
+            padding: 10px 0;
+            font-weight: bold;
+            text-align: center;
+            font-size: 20px;
+            animation: marquee 15s linear infinite;
+        }
+        @keyframes marquee {
+            from {transform: translateX(100%);}
+            to {transform: translateX(-100%);}
+        }
+    </style>
+</head>
+<body>
+    <div class="marquee">Welcome to my personal website! Stay connected and explore more about me!</div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+                <a href="#">About Me ▾</a>
+                <ul class="dropdown">
+                    <li><a href="introduction.html">Introduction</a></li>
+                    <li><a href="contact_information.html">Contact Information</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Family ▾</a>
+                <ul class="dropdown">
+                    <li><a href="parents&siblings.html">Parent & Siblings</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Education ▾</a>
+                <ul class="dropdown">
+                    <li><a href="primary_school.html">Primary School</a></li>
+                    <li><a href="secondary_school.html">Secondary Schoool</a></li>
+                    <li><a href="university.html">University</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Hobby ▾</a>
+                <ul class="dropdown">
+                    <li><a href="football.html">Football</a></li>
+                    <li><a href="basketball.html">Basketball</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <center>
+        <h1>WELCOME TO MY WEBSITE! DIVE INTO THE WORLD AND EXPERIENCE THE THRILL OF MYSELF IN MY EXCLUSIVE SITE. LET THE ACTION BEGIN!!!</h1>
+        <br><br>
+        <img src="photo/myselfphoto.jpg" width="40%" height="30%" border="3" vspace="5" hspace="10">
+        <div class="video-container">
+            <video controls>
+                <source src="video/myvideo.mp4" type="video/mp4">
+            </video>
+        </div>
+        <br><br><br>
+        <h1>This is the homepage of my website where all the information is cut short here</h1>
+    </center>
+    <br><br>
+    <center><h1>ABOUT ME</h1></center>
+    <center><img src="photo/photo1.jpg" width="40%" height="30%" border="3" vspace="5" hspace="10"></center>
+    <br><br>
+    <center><h1>FAMILY & SIBLINGS</h1></center>
+    <center><img src="photo/photo3.jpg" width="40%" height="30%" border="3" vspace="5" hspace="10"></center>
+    <br><br>
+    <center><h1>EDUCATION</h1></center>
+    <center><img src="photo/photo2.jpg" width="40%" height="30%" border="3" vspace="5" hspace="10"></center>
+    <br><br>
+    <center><h1>HOBBY</h1></center>
+    <center><img src="photo/photo4.jpg" width="40%" height="30%" border="3" vspace="5" hspace="10"></center>
+    <br><br>
+    <footer>
+        <p>&copy; 2024 Syazwan Mohideen. All rights reserved.</p>
+        <div class="contact-info">
+            <p>Phone: +60 17 762 2808</p>
+            <p>Email: <a href="mailto:syazwanmohideen@gmail.com">syazwanmohideen@gmail.com</a></p>
+        </div>
+        <div class="footer-sci">
+            <a href="https://m.facebook.com/mohdsyazwan.mohdmohideen/" target="_blank"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.instagram.com/sy.zwn/" target="_blank"><i class='bx bxl-instagram'></i></a>
+            <a href="https://x.com/syazwanfcuk" target="_blank"><i class='bx bxl-twitter'></i></a>
+        </div>
+    </footer>
+</body>
+</html>
